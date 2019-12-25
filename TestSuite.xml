@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional Test Suite" parallel="false">
+    <parameter name="platform" value="native-ios"></parameter>
+    <parameter name="DEVICE_NAME" value="iPhone11"></parameter>
+    <parameter name="build" value="test"></parameter>
+    <test name="Sample Test">
+        <parameter name="APPIUM_VERSION" value="1.13"></parameter>
+          <parameter name="PLATFORM_VERSION" value="13.3"></parameter>
+          <parameter name="PLATFORM_NAME" value="iOS"></parameter>
+          <parameter name="AUTOMATION_NAME" value="XCUITest"></parameter>
+          <parameter name="DEVICE_NAME" value=""></parameter>
+          <parameter name="udid" value=""></parameter>
+          <parameter name="bundleId" value="ka.aeye"></parameter>
+          <parameter name="appActivity" value=""></parameter>
+          <parameter name="appPackage" value=""></parameter>
+          <parameter name="host" value="http://127.0.0.1:4723/wd/hub"></parameter>
+        <classes>
+            <class name="tests.SampleTest"></class>
+        </classes>
+    </test>
+
+</suite>
