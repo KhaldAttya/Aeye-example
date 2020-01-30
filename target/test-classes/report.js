@@ -1,10 +1,8 @@
 
-const arr = [
-    "Sample Test",
-            ]
 const arrPics = [
   
-  "sampleTest"
+  "loginScreen",
+  "loginScreenExcluded"
 ]
 
 

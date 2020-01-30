@@ -2,15 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Functional Test Suite" parallel="false">
     <parameter name="platform" value="native-ios"></parameter>
-    <parameter name="DEVICE_NAME" value="iPhone11"></parameter>
+    <parameter name="deviceName" value="iPhone-7"></parameter>
     <parameter name="build" value="test"></parameter>
     <test name="Sample Test">
-        <parameter name="APPIUM_VERSION" value="1.13"></parameter>
-          <parameter name="PLATFORM_VERSION" value="13.3"></parameter>
-          <parameter name="PLATFORM_NAME" value="iOS"></parameter>
-          <parameter name="AUTOMATION_NAME" value="XCUITest"></parameter>
-          <parameter name="DEVICE_NAME" value=""></parameter>
-          <parameter name="udid" value=""></parameter>
+        <parameter name="appiumVersion" value="1.13"></parameter>
+          <parameter name="platformVersion" value="12.4"></parameter>
+          <parameter name="platformName" value="iOS"></parameter>
+          <parameter name="automationName" value="XCUITest"></parameter>
+          <parameter name="deviceName" value="iPhone7"></parameter>
+          <parameter name="udid" value="72E71E55-0F08-49AA-84C7-C5868863FCE4"></parameter>
           <parameter name="bundleId" value="ka.aeye"></parameter>
           <parameter name="appActivity" value=""></parameter>
           <parameter name="appPackage" value=""></parameter>
