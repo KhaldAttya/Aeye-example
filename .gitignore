@@ -2,3 +2,6 @@
 .idea/
 .DS_Store
 *.iml
+target/
+src/test/resources/native-ios/iPhone-7/actual/
+src/test/resources/native-ios/iPhone-7/result/
